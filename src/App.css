@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+.movie{
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding: 1rem;
+}
